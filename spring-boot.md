@@ -1,10 +1,24 @@
 # Spring Boot Interview Questions & Answers
 
-[![Click star if you like](https://img.shields.io/github/stars/anilvn/spring-boot-interview-questions?style=social)](https://github.com/anilvn/spring-boot-interview-questions)
-> ⭐ **If you find this project helpful, please consider giving it a star!**  
-> 👉 [Click here to star the repo](https://github.com/anilvn/spring-boot-interview-questions/stargazers)
+<!-- <h2 align="center">🙌 Support & Connect</h2> -->
 
----
+<p align="center">
+  <a href="https://github.com/anilvn/spring-boot-interview-questions">
+    <img src="https://img.shields.io/github/stars/anilvn/spring-boot-interview-questions?style=social" alt="GitHub Stars" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/anil-valsa/">
+    <img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn" />
+  </a>
+</p>
+
+<p align="center">
+  ⭐ <strong>Please consider giving it a ⭐️ to show your support!</strong>
+  <a href="https://github.com/anilvn/spring-boot-interview-questions">Click here</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <strong>Let’s connect professionally:</strong>
+  <a href="https://www.linkedin.com/in/anil-valsa/">Anil Valsa on LinkedIn</a>
+</p>
 
 ---
 Welcome to the comprehensive collection of essential Spring and Spring Boot interview questions covering core concepts, annotations, dependency injection, configurations, and best practices to help you prepare for your next Java developer interview.
@@ -560,3 +574,4 @@ How to Use:
 - **Environment-Specific Properties**: Create separate properties files for each profile, such as `application-dev.properties`, `application-test.properties`, etc.
 
 **[⬆ Back to Top](#table-of-contents)**
+
