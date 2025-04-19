@@ -27,10 +27,9 @@ This document is a comprehensive guide to Spring Web Module and RESTful web serv
 ## Additional Resources
 
 If you found this guide helpful, you might also be interested in my other Spring Framework resources:
-
-- [Spring Boot Interview Questions](https://github.com/yourusername/spring-boot-interview-questions)
-- [Spring Security Guide](https://github.com/yourusername/spring-security-guide)
-- [Microservices with Spring Cloud](https://github.com/yourusername/microservices-spring-cloud)
+- [Core Java & Java-8 Interview Questions](https://github.com/anilvn/Java-Interview-Questions/tree/main)
+- [Spring Boot Interview Questions](https://github.com/anilvn/spring-boot-interview-questions/tree/main)
+- [Microservices with Spring Cloud Tutorials](https://javatechonline.com/microservices-tutorial/)
 
 Please consider starring and forking this repository if you find it useful!
 

@@ -25,9 +25,9 @@ Welcome to the comprehensive collection of essential Spring and Spring Boot inte
 ### Additional Resources
 
 If you found this guide helpful, you might also be interested in my other Spring Framework resources:
-- [Spring Boot Interview Questions](https://github.com/yourusername/springboot-questions)
-- [Spring Security Guide](https://github.com/yourusername/spring-security-guide)
-- [Microservices with Spring Cloud](https://github.com/yourusername/spring-cloud-microservices)
+- [Core Java & Java-8 Interview Questions](https://github.com/anilvn/Java-Interview-Questions/tree/main)
+- [Spring Boot Interview Questions](https://github.com/anilvn/spring-boot-interview-questions/tree/main)
+- [Microservices with Spring Cloud Tutorials](https://javatechonline.com/microservices-tutorial/)
 
 Feel free to star and fork these repositories if you find them useful!
 
