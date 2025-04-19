@@ -3,22 +3,23 @@
 <!-- <h2 align="center">🙌 Support & Connect</h2> -->
 
 <p align="center">
-  <a href="https://github.com/anilvn/spring-boot-interview-questions">
+  <a href="https://github.com/anilvn/spring-boot-interview-questions" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/github/stars/anilvn/spring-boot-interview-questions?style=social" alt="GitHub Stars" />
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/anil-valsa/">
+  <a href="https://www.linkedin.com/in/anil-valsa/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn" />
   </a>
 </p>
 
 <p align="center">
   ⭐ <strong>Please consider giving it a ⭐️ to show your support!</strong>
-  <a href="https://github.com/anilvn/spring-boot-interview-questions">Click here</a>
+  <a href="https://github.com/anilvn/spring-boot-interview-questions" target="_blank" rel="noopener noreferrer">Click here</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <strong>Let’s connect professionally:</strong>
-  <a href="https://www.linkedin.com/in/anil-valsa/">Anil Valsa on LinkedIn</a>
+  <a href="https://www.linkedin.com/in/anil-valsa/" target="_blank" rel="noopener noreferrer">Anil Valsa on LinkedIn</a>
 </p>
+
 
 ---
 This document is a comprehensive guide to Spring Web Module and RESTful web services, covering essential concepts like HTTP methods, annotations, controllers, and resource handling. It serves as a reference for developers working with Spring Boot to build web applications and APIs.
