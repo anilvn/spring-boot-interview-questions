@@ -46,11 +46,9 @@ Feel free to star and fork these repositories if you find them useful!
 |7 | [What is Dependency Injection (DI)?](#what-is-dependency-injection-di)|
 |8 | [What is Inversion of Control (IOC) in Spring?](#what-is-inversion-of-control-ioc-in-spring-what-is-the-purpose-of-it)|
 |9 | [What is a Spring Bean?](#what-is-a-spring-bean)|
-|10 | [What are inner beans in Spring?](#what-are-inner-beans-in-spring)|
 |11 | [What is Bean Wiring?](#what-is-bean-wiring)|
 |12 | [What Bean Scopes Does Spring Provide?](#what-bean-scopes-does-spring-provide)|
 |13 | [What is a Spring Configuration File?](#what-is-a-spring-configuration-file)|
-|14 | [What is Autowiring in Spring?](#what-is-autowiring-in-spring-and-what-are-the-different-modes-it-has)|
 |15 | [What is the Difference Between @Autowired and @Inject?](#what-is-the-difference-between-autowired-and-inject)|
 |16 | [What is the Difference Between @Component and @Bean?](#what-is-the-difference-between-component-and-bean)|
 |17 | [What is the Use of @Autowired Annotation in Spring?](#what-is-the-use-of-autowired-annotation-in-spring)|
@@ -74,6 +72,8 @@ Feel free to star and fork these repositories if you find them useful!
 |35 | [Spring Actuator and Its Advantages?](#spring-actuator-and-its-advantages)|
 |36 | [How to use a property defined in application.properties file into your Java class?](#how-to-use-a-property-defined-in-applicationproperties-file-into-your-java-class)|
 |37 | [Use of Profiles in Spring Boot?](#use-of-profiles-in-spring-boot)|
+|10 | [What are inner beans in Spring?](#what-are-inner-beans-in-spring)|
+|14 | [What is Autowiring in Spring?](#what-is-autowiring-in-spring-and-what-are-the-different-modes-it-has)|
 
 ## What is Spring Boot?
 
@@ -190,16 +190,7 @@ Key Characteristics:
 
 **[⬆ Back to Top](#table-of-contents)**
 
-## What are inner beans in Spring?
 
-Inner beans are beans that are defined within the scope of another bean's configuration. They are typically used for defining beans that are only used by their enclosing bean.
-
-Characteristics:
-- **Anonymous**: Inner beans do not have an identifier or a name and cannot be accessed outside the scope of their enclosing bean.
-- **Short-Lived**: They are typically short-lived and not shared between multiple beans.
-- **Defined in XML**: Often defined in XML configuration using the `<bean>` element within another `<bean>` element.
-
-**[⬆ Back to Top](#table-of-contents)**
 
 ## What is Bean Wiring?
 
@@ -235,19 +226,6 @@ Types of Configuration:
 - **XML Configuration**: Uses XML files with `<beans>` definitions.
 - **Java Configuration**: Uses `@Configuration` annotated classes with `@Bean` methods.
 - **Annotation-Based Configuration**: Utilizes annotations like `@Component`, `@Service`, `@Repository`, etc.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-## What is Autowiring in Spring, and What Are the Different Modes It Has?
-
-Autowiring is a feature in Spring that allows the Spring container to automatically resolve and inject dependencies between beans. It simplifies the process of wiring beans by reducing the need for explicit configuration.
-
-Autowiring Modes:
-- **no**: Default mode, no autowiring is performed, and dependencies are injected manually.
-- **byName**: Autowiring a bean property if there is a bean with the same name in the container.
-- **byType**: Autowiring a bean property if there is exactly one bean of the property type in the container.
-- **constructor**: Autowired constructor arguments by type.
-- **autodetect**: Deprecated, automatically chooses constructor or byType based on the available constructors.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -575,3 +553,26 @@ How to Use:
 
 **[⬆ Back to Top](#table-of-contents)**
 
+
+## What are inner beans in Spring?
+
+Inner beans are beans that are defined within the scope of another bean's configuration. They are typically used for defining beans that are only used by their enclosing bean.
+
+Characteristics:
+- **Anonymous**: Inner beans do not have an identifier or a name and cannot be accessed outside the scope of their enclosing bean.
+- **Short-Lived**: They are typically short-lived and not shared between multiple beans.
+- **Defined in XML**: Often defined in XML configuration using the `<bean>` element within another `<bean>` element.
+
+**[⬆ Back to Top](#table-of-contents)**
+## What is Autowiring in Spring, and What Are the Different Modes It Has?
+
+Autowiring is a feature in Spring that allows the Spring container to automatically resolve and inject dependencies between beans. It simplifies the process of wiring beans by reducing the need for explicit configuration.
+
+Autowiring Modes:
+- **no**: Default mode, no autowiring is performed, and dependencies are injected manually.
+- **byName**: Autowiring a bean property if there is a bean with the same name in the container.
+- **byType**: Autowiring a bean property if there is exactly one bean of the property type in the container.
+- **constructor**: Autowired constructor arguments by type.
+- **autodetect**: Deprecated, automatically chooses constructor or byType based on the available constructors.
+
+**[⬆ Back to Top](#table-of-contents)**

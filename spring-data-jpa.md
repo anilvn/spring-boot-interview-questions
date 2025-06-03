@@ -65,6 +65,8 @@ Please consider starring and forking this repository if you find it useful!
 
 ## What is ORM?
 
+> **Object-Relational Mapping (ORM)** is a programming technique that automatically maps objects in your code (like Java classes) to rows in a relational database table, and vice versa. It helps developers interact with the database using objects instead of writing raw SQL queries.
+
 **Object-Relational Mapping (ORM)** is a programming technique used to convert data between incompatible type systems in object-oriented programming languages. ORM allows developers to work with databases using objects rather than writing SQL queries, providing a more intuitive and flexible way to manage data.
 
 Key Features of ORM:
